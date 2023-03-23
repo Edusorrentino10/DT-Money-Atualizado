@@ -1,0 +1,28 @@
+{
+  "transactions": [
+    {
+      "description": "b",
+      "price": 123,
+      "category": "12ds",
+      "type": "income",
+      "createdAt": "2023-03-23T14:18:05.603Z",
+      "id": 2
+    },
+    {
+      "description": "adf",
+      "price": 123,
+      "category": "asdas",
+      "type": "income",
+      "createdAt": "2023-03-23T14:22:16.330Z",
+      "id": 3
+    },
+    {
+      "description": "123",
+      "price": 123,
+      "category": "qewfr",
+      "type": "outcome",
+      "createdAt": "2023-03-23T14:22:22.196Z",
+      "id": 4
+    }
+  ]
+}
