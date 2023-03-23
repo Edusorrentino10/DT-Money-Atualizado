@@ -9,11 +9,23 @@ import {
   TransactionsContainer,
   TransactionsTable,
 } from './styles'
+import { Trash } from 'phosphor-react'
 
 export function Transactions() {
   const transactions = useContextSelector(TransactionsContext, (context) => {
     return context.transactions
   })
+
+  const removeTransaction = useContextSelector(
+    TransactionsContext,
+    (context) => {
+      return context.removeTransaction
+    },
+  )
+
+  async function handleRemoveTransaction(id: number) {
+    await removeTransaction(id)
+  }
 
   return (
     <div>
@@ -37,6 +49,13 @@ export function Transactions() {
                   <td>{transaction.category}</td>
                   <td>
                     {dateFormatter.format(new Date(transaction.createdAt))}
+                  </td>
+                  <td>
+                    <Trash
+                      size={24}
+                      onClick={() => handleRemoveTransaction(transaction.id)}
+                      style={{ cursor: 'pointer' }}
+                    />
                   </td>
                 </tr>
               )

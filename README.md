@@ -19,11 +19,16 @@ $ npm install
 # Executar aplicação
 $ npm run dev
 
+# Executar json server
+$ npm run dev:server
+
 # Abrir aplicação na porta 5173, acessando: http://localhost:5173
 ```
 
 <!-- <h2 align="center"><img src="./src/assets/dtmoney-print-home.png"></h2> -->
 <!-- <h2 align="center"><img src="./src/assets/dtmoney-print-transaction.png"></h2> -->
+![Dt Money](./src/assets/printdtmoney-1.PNG)
+![Dt Money Modal](./src/assets/printdtmoney-2.PNG)
 
 
 
