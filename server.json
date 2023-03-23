@@ -1,0 +1,44 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Desenvolvimento de site",
+      "type": "income",
+      "category": "Venda",
+      "price": 14000,
+      "createdAt": "2023-03-21T19:21:26.795Z"
+    },
+    {
+      "id": 2,
+      "description": "Hamburger",
+      "type": "outcome",
+      "category": "Alimentação",
+      "price": 40,
+      "createdAt": "2023-03-21T19:22:26.795Z"
+    },
+    {
+      "description": "Ignite",
+      "price": 1200,
+      "category": "Curso",
+      "type": "outcome",
+      "createdAt": "2023-03-22T13:56:35.941Z",
+      "id": 3
+    },
+    {
+      "description": "Lanche",
+      "price": 25,
+      "category": "Alimentacao",
+      "type": "outcome",
+      "createdAt": "2023-03-22T14:12:39.639Z",
+      "id": 4
+    },
+    {
+      "description": "Fifa Coins",
+      "price": 580,
+      "category": "Jogo",
+      "type": "income",
+      "createdAt": "2023-03-22T14:14:08.659Z",
+      "id": 5
+    }
+  ]
+}
